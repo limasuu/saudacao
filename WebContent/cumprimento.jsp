@@ -24,6 +24,8 @@
 				return cumprimento;
 		}%>		
 			
+		<%@ include file="topo.jsp" %>	
+			
 		<h3>Olá, <%=cumprimentar()%>!</h3>
 			
 		<p>Seja bem-vindo(a), <%= request.getParameter("nome")%>!</p>
